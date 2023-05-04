@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    background-image: url(Logo\ 1.jpeg)
+    
+}
+.Logo {
+    padding-left: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 228);
+    border: 2px solid rgb(23, 111, 57);
+    position: fixed;
+    width: 98vw;
+}
+header ul {
+   display: flex;   
+   gap: 50px;
+   list-style: none;
+   margin-top: 100px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+   text-shadow: 0px 20px 4px rgb(5, 78, 96);
+
+}
+.kurzweg {
+    padding-right: 5px;
+    margin-top: 10px;
+    color: (fffbe0b)
+      
+
+    
+}
+.serchposition {
+    margin-top: 10px;
+    
+}
+
+h1 {
+    color: rgb(31, 31, 174);
+
+}
+
+/* padding = Innenrand - Abstand zu inneren Elementen*/
+/* margin = Außenrand - Abstand zu umliegenden Elementen*/
+/* Font family: Schriftart */
+.BigBlock {
+    background-color: white;
+    width: 700px;
+    /*Innenrand 50px oben, rechts, unten, links */
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+    /* Außenrand oben 100px */
+    margin-top: 200px;
+     /* AUßenrand links 200px */
+     margin-left: 50px;
+     
+}
+
+/* Größe vom Bild abhängig vom Elternelement mit %, hier 100% der Breite des Elternelements) */
+.bigBlock img {
+    width: 100%;
+}
+/* Font weight, die Dicke der Schrift */
+h6 {
+    margin-top : 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(152, 135, 135);
+
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(17, 124, 128);
+  }
+  p {
+    font-style: italic;
+  }
+  
+.container {
+    display: flex;
+    padding-right: 50px;
+    justify-content: center  
+    
+}
+.containerende {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pythagoreismus {
+   border-image: 2px;
+    font-style: italic;
+    background-image: url(pythagoras\ 2\ -\ 1.jpeg );
+  
+    
+}
+.Pythagoreismus2 {
+    background-color: white;
+    width: 700px;
+    /*Innenrand 50px oben, rechts, unten, links */
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+    /* Außenrand oben 100px */
+    margin-top: 90px;
+     /* AUßenrand links 200px */
+     margin-left: 300px;
+     padding-right: 200px;
+}
+.Epikurismus {
+    border-image: 2px;
+    font-style: italic;
+    background-image: url(Epikur2222222222222.jpeg);
+
+}
